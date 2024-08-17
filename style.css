@@ -1,0 +1,88 @@
+/* ========= TYPE SELECTORS =========
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: rgb(255, 249, 241);
+}
+
+h1{
+    background-color: skyblue;
+    color: darkblue;
+    text-align: center;
+}
+
+h2{
+    background-color: pink;
+    color: #a13a4b;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ed556e;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+h3{
+    background-color: lightgreen;
+    color: green;
+    text-align: center;
+    font-size: 25px;
+}
+
+li{
+    background-color: rgb(209, 231, 209);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+} */
+
+
+/* ========= CLASS SELECTOR W/ GROUPING SELECTOR ========= */
+*{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: rgb(255, 249, 241);
+}
+
+.title{
+    background-color: skyblue;
+    color: darkblue;
+    text-align: center;
+}
+
+.description{
+    background-color: pink;
+    color: #a13a4b;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.description-text{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ed556e;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.ingredients,
+.steps{
+    background-color: lightgreen;
+    color: green;
+    text-align: center;
+    font-size: 25px;
+}
+
+.lists{
+    background-color: rgb(209, 231, 209);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+.ingredients-list,
+.steps-list{
+    background-color: #fafaaf;
+}

@@ -46,10 +46,33 @@ li{
     background-color: rgb(255, 249, 241);
 }
 
+
+.card{
+    background-color: #fafaaf;
+    width: 600px;
+    margin: 0 auto;
+    border: 4px solid black;
+    padding: 10px;
+}
+
 .title{
     background-color: skyblue;
     color: darkblue;
     text-align: center;
+    margin-top: 0px;
+    padding: 5px;
+}
+
+.container{
+    background-color: rgb(210, 255, 207);
+    border: 3px dashed black;
+    margin: 10px;
+    padding: 10px;
+}
+
+.content{
+    border: 2px dotted black;
+    margin: 10px;
 }
 
 .description{
@@ -58,6 +81,9 @@ li{
     text-align: center;
     font-weight: bold;
     font-family: 'Courier New', Courier, monospace;
+    margin-top: 0;
+    padding: 5px;
+    text-align: center;
 }
 
 .description-text{
@@ -74,15 +100,13 @@ li{
     color: green;
     text-align: center;
     font-size: 25px;
+    margin-top: 0;
+    padding: 5px;
 }
 
 .lists{
-    background-color: rgb(209, 231, 209);
     font-family: Arial, Helvetica, sans-serif;
     font-size: 18px;
-}
-
-.ingredients-list,
-.steps-list{
-    background-color: #fafaaf;
+    background-color: bisque;
+    margin-right: 20px;
 }
